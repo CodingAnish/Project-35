@@ -67,7 +67,7 @@ function setup() {
   bunny.addAnimation('eating',eat);
   bunny.addAnimation('crying',sad);
   bunny.changeAnimation('blinking');
-  bunny.debug = true;
+ // bunny.debug = true;
 
   rope = new Rope(4,{x:230,y:330});
   rope2 = new Rope(4,{x:50,y:450});
